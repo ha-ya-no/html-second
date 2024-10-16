@@ -34,4 +34,189 @@ img {
     margin-bottom: 15px;
 }
 
+.unit__title--border {
+    border-bottom: solid 1px #DDDDDD;
+}
+
 .unit__text {}
+
+/*---title---*/
+.title {
+    color: #202124;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    border-left: #FA6980 solid 10px;
+    padding-left: 10px;
+}
+
+/*---card---*/
+.card__body {
+    background-color: #fff;
+    padding: 35px;
+}
+
+.card__title {
+    color: #202124;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card__text {
+    margin: 15px 0 25px;
+}
+
+/*---btn---*/
+.btn {
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #FA6980;
+    width: 160px;
+    margin-left: auto;
+    padding: 14px 43px;
+}
+
+.btn--warning {
+    background-color: #202124;
+    margin-top: 25px;
+}
+
+
+/*---date---*/
+.date {
+    color: #bbb;
+    font-size: 12px;
+    line-height: 1.6;
+    background: url(./images/icon_time.png) no-repeat left center;
+    margin-top: 20px;
+    padding-left: 26px;
+}
+
+/*---header---*/
+header {
+    padding: 30px 0 60px;
+}
+
+.header__inner {
+    max-width: 800px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*---footer---*/
+footer {
+    color: #BBBBBB;
+    font-size: 12px;
+    background-color: #202124;
+    padding: 100px 0 40px;
+}
+
+.footer__inner {
+    max-width: 800px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*index
+---------------*/
+/*---news---*/
+.news {
+    padding-bottom: 60px;
+}
+
+.news__inner {
+    max-width: 800px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.news__info {
+    width: 47.5%;
+    margin-top: 60px;
+}
+
+.news__title {
+    margin-bottom: -30px;
+}
+
+/*---trending---*/
+.trending {
+    background-color: #F6F6F6;
+    padding: 60px 0;
+}
+
+.trending__inner {
+    max-width: 800px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trending__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.trending__item {
+    width: 47.5%;
+}
+
+/*about
+---------------*/
+/*---post---*/
+.post {
+    padding-bottom: 60px;
+}
+
+.post__inner {
+    max-width: 800px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post__info:last-child {
+    margin-top: 40px;
+}
+
+/*---discovery---*/
+.discovery {
+    background-color: #F6F6F6;
+    padding: 60px 0;
+}
+
+.discovery__inner {
+    max-width: 800px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.discovery__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.discovery__item {
+    width: 30%;
+}

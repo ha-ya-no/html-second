@@ -4,82 +4,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Newslly</title>
+    <title><Newslly-ibex></Newslly-ibex></title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/the-new-css-reset/css/reset.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1><img src="./images/img_logo.png" alt="Newslly"></h1>
+        <div class="header__inner">
+            <h1><img class="header__logo" src="./images/img_logo.png" alt="Newslly"></h1>
+        </div>
     </header>
 
 
     <main>
         <section class="news">
             <div class="news__inner">
-                <h2>MORE NEWS</h2>
+                <h2 class="title news__title">MORE NEWS</h2>
 
-                <div class="news__info unit">
-                    <p class="unit__catch">
-                        TRAVEL
-                    </p>
-                    <h3 class="unit__title">Subtitle</h3>
-                    <p class="unit__text">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
-                        detracto, vidit vituperatoribus duo id. Affert detraxit
-                        voluptatum vis eu, inermis eloquentiam.</p>
-                    <p class="date">2m ago</p>
-                </div>
-                <div class="news__info unit">
-                    <p class="unit__catch">
-                        TRAVEL
-                    </p>
-                    <h3 class="unit__title">Subtitle</h3>
-                    <p class="unit__text">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
-                        detracto, vidit vituperatoribus duo id. Affert detraxit
-                        voluptatum vis eu, inermis eloquentiam.</p>
-                    <p class="date">2m ago</p>
-                </div>
-                <div class="news__info unit">
-                    <p class="unit__catch">
-                        TRAVEL
-                    </p>
-                    <h3 class="unit__title">Subtitle</h3>
-                    <p class="unit__text">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
-                        detracto, vidit vituperatoribus duo id. Affert detraxit
-                        voluptatum vis eu, inermis eloquentiam.</p>
-                    <p class="date">2m ago</p>
-                </div>
-                <div class="news__info unit">
-                    <p class="unit__catch">
-                        TRAVEL
-                    </p>
-                    <h3 class="unit__title">Subtitle</h3>
-                    <p class="unit__text">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
-                        detracto, vidit vituperatoribus duo id. Affert detraxit
-                        voluptatum vis eu, inermis eloquentiam.</p>
-                    <p class="date">2m ago</p>
+                <div class="news__list">
+                    <div class="news__info unit">
+                        <p class="unit__catch">
+                            TRAVEL
+                        </p>
+                        <h3 class="unit__title">Subtitle</h3>
+                        <p class="unit__text">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
+                            detracto, vidit vituperatoribus duo id. Affert detraxit
+                            voluptatum vis eu, inermis eloquentiam.</p>
+                        <p class="date">2m ago</p>
+                    </div>
+                    <div class="news__info unit">
+                        <p class="unit__catch">
+                            TECHNOLOGY
+                        </p>
+                        <h3 class="unit__title">Subtitle</h3>
+                        <p class="unit__text">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
+                            detracto, vidit vituperatoribus duo id. Affert detraxit
+                            voluptatum vis eu, inermis eloquentiam.</p>
+                        <p class="date">2m ago</p>
+                    </div>
+                    <div class="news__info unit">
+                        <p class="unit__catch">
+                            PHOTO
+                        </p>
+                        <h3 class="unit__title">Subtitle</h3>
+                        <p class="unit__text">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
+                            detracto, vidit vituperatoribus duo id. Affert detraxit
+                            voluptatum vis eu, inermis eloquentiam.</p>
+                        <p class="date">2m ago</p>
+                    </div>
+                    <div class="news__info unit">
+                        <p class="unit__catch">
+                            VIDEO
+                        </p>
+                        <h3 class="unit__title">Subtitle</h3>
+                        <p class="unit__text">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
+                            detracto, vidit vituperatoribus duo id. Affert detraxit
+                            voluptatum vis eu, inermis eloquentiam.</p>
+                        <p class="date">2m ago</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="trending">
             <div class="trending__inner">
-                <h2>TRENDING</h2>
+                <h2 class="title">TRENDING</h2>
 
-                <div class="trending__item card">
-                    <img src="./images/pic_trending01.png" alt="" class="card__pic">
-                    <h3 class="card__title">Dolore magna aliqua</h3>
-                    <p class="card__text">Lorem ipsum dolor sit amet, ipsum labitur lucilius
-                        mel id, ad has appareat.</p>
-                    <a href="#" class="btn">READ MORE</a>
-                </div>
-                <div class="trending__item card">
-                    <img src="./images/pic_trending02.png" alt="" class="card__pic">
-                    <h3 class="card__title">Dolore magna aliqua</h3>
-                    <p class="card__text">Lorem ipsum dolor sit amet, ipsum labitur lucilius
-                        mel id, ad has appareat.</p>
-                    <a href="#" class="btn">READ MORE</a>
+                <div class="trending__list">
+                    <div class="trending__item card">
+                        <img src="./images/pic_trending01.png" alt="" class="card__pic">
+                        <div class="card__body">
+                            <h3 class="card__title">Dolore magna aliqua</h3>
+                            <p class="card__text">Lorem ipsum dolor sit amet, ipsum labitur lucilius
+                                mel id, ad has appareat.</p>
+                            <a href="#" class="btn">READ MORE</a>
+                        </div>
+                    </div>
+                    <div class="trending__item card">
+                        <img src="./images/pic_trending02.png" alt="" class="card__pic">
+                        <div class="card__body">
+                            <h3 class="card__title">Dolore magna aliqua</h3>
+                            <p class="card__text">Lorem ipsum dolor sit amet, ipsum labitur lucilius
+                                mel id, ad has appareat.</p>
+                            <a href="#" class="btn">READ MORE</a>
+                        </div>
+                    </div>
                 </div>
 
             </div>
