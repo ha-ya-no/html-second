@@ -191,9 +191,11 @@ img {
         padding: 7px 10px;
     }
 
-    // &__title:nth-child(odd) &__title {
-    //     margin-left: auto;
-    // }
+    &__item:nth-child(odd) {
+        .card__title {
+            margin-left: auto;
+        }
+    }
 
     img {
         width: 100%;

@@ -160,6 +160,9 @@ img {
   background-color: #000;
   padding: 7px 10px;
 }
+.card__item:nth-child(odd) .card__title {
+  margin-left: auto;
+}
 .card img {
   width: 100%;
   aspect-ratio: 16/9;
