@@ -177,6 +177,7 @@ img {
         padding: (150em/16) 0 (646em/16);
 
         @include m-query(desktop) {
+            @include m-inner((1140/1920)*100%);
             background-position: right bottom;
             padding-bottom: (188em/14);
         }
@@ -190,7 +191,8 @@ img {
         margin-bottom: (80em/48);
     }
 
-    &__text {
+    &__content {
+        max-width: 640px;
         margin-bottom: (40em/14);
     }
 
